@@ -1,0 +1,17 @@
+{
+  "name": "wikipediaapinodejshs",
+  "version": "1.0.0",
+  "description": "Visualize Wikipedia Data using NodeJS and Highcharts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mustapha Mekhatria",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "highcharts": "^6.1.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
