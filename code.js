@@ -1,7 +1,6 @@
 var rp = require('request-promise');
 var Highcharts = require('highcharts');
 
-console.log(rp);
 var options = {
   method: 'GET',
   uri: 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/International_Space_Station/daily/2017070100/2018060300',
@@ -11,7 +10,6 @@ var options = {
 
 rp(options)
   .then((parseBody) => {
-    var parseBodyJSON = JSON.stringify(parseBody);
     var arrData = [];
     var year, month, day;
 
